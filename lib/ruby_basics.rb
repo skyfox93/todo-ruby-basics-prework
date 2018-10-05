@@ -16,13 +16,14 @@ puts #{greeting}, #{name}
 end
 
 def return_a_value
-
+value="nice"
+value
 end
 
 def last_evaluated_value
-
+value="expert"
 end
 
-def pizza_party
-
+def pizza_party(fooditem="cheese")
+  fooditem
 end
